@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home'
 import Loading from './components/Loading'
-function App() {
+function App(){
 
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
